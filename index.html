@@ -53,6 +53,8 @@
               required
               id="user-name"
               placeholder="Enter your full name"
+              pattern="[A-Za-z]+"
+              title="Only letters are allowed"
             />
             <input
               type="email"
@@ -61,6 +63,8 @@
               required
               id="email"
               placeholder="Enter your email"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              title="Enter a valid email address"
             />
             <textarea
               name="user-comment"
@@ -69,7 +73,7 @@
               placeholder="Comments"
             ></textarea>
           </form>
-          <button class="order-button">
+          <button class="order-button" type="submit">
             <span class="order-button-span">SEND</span>
             <svg class="order-icon" width="26" height="10">
               <use href="./img/strilka.svg"></use>
