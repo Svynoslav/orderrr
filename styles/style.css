@@ -176,6 +176,14 @@ img {
         background-position: 0% 100%;
     }
 
+    /* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order-section {
+            background-image: url();
+        }
+    } */
+
     .order-container {
         padding-left: 32px;
         padding-right: 32px;
