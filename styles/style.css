@@ -236,11 +236,11 @@ img {
         gap: 50px;
     }
 
-    .order-wrap {
+    /* .order-wrap {
         width: calc((100% - 50px) / 2);
+    } */
+
+    .form-wrap {
+        width: 565px;
     }
-
-    .order-img-wrap {}
-
-    .form-wrap {}
 }
