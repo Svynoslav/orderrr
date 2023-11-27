@@ -171,6 +171,9 @@ img {
     .order-section {
         padding-top: 100px;
         padding-bottom: 80px;
+        background-image: url(../img/tab_form_element.png);
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
     }
 
     .order-container {
@@ -185,6 +188,7 @@ img {
     .order-img-wrap {
         display: flex;
         justify-content: flex-end;
+        flex-grow: 0;
     }
 
     .order-img {
@@ -192,7 +196,9 @@ img {
     }
 
     .order-title {
-        width: 540px;
+        line-height: 131.818%;
+        font-size: 44px;
+        width: 542px;
     }
 
     .order-form {
@@ -225,7 +231,7 @@ img {
 
     .order-section {
         padding-top: 150px;
-        padding-bottom: 150px;
+        padding-bottom: 0px;
     }
 
     .order-container {
@@ -236,11 +242,15 @@ img {
         gap: 50px;
     }
 
-    /* .order-wrap {
-        width: calc((100% - 50px) / 2);
-    } */
-
-    .form-wrap {
-        width: 565px;
+    .order-img-wrap {
+        display: block;
     }
+
+    .order-wrap {
+        width: calc((100% - 50px) / 2);
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    
 }
